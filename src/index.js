@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Card from './Components/Card';
-import powerbank from './Photos/powerbank.png'
+import powerbank from './Photos/pw.png'
 import iqos from './Photos/iqos.png'
 import vape from './Photos/vape.png'
 import nag from './Photos/nag.png'
