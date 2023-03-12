@@ -6,7 +6,7 @@ import Card from './Components/Card';
 // import iqos from 'src/iqos.png'
 // import vape from 'src/vape.png'
 // import nag from 'src/nag.png'
-import glo from '/Pods/pods/src/glo.png'
+import glo from './Photo/glo.png'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
