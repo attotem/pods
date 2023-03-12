@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Card from './Components/Card';
-import powerbank from './Photos/pw.png'
+// import powerbank from './Photos/pw.png'
 import iqos from './Photos/iqos.png'
 import vape from './Photos/vape.png'
 import nag from './Photos/nag.png'
@@ -15,7 +15,7 @@ root.render(
    <Card img ={iqos} title="Iqos"/>
    <Card img ={glo} title="GLO"/>
    <Card img ={vape} title="JOUZ"/>
-   <Card img ={powerbank}  title="Павербанки та зар. станції"/>
+   <Card img ={iqos}  title="Павербанки та зар. станції"/>
   </React.StrictMode>
 );
 
