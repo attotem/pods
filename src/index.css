@@ -22,9 +22,10 @@ code {
 }
 .ctg{
 color: white;
-font-size: 3vh;
+font-size: 4vh;
 margin-top: 5vh;
 margin-bottom: 3vh;
+text-align: center;
 font-weight: bold;
 }
 #menu{
