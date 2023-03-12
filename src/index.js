@@ -2,16 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Card from './Components/Card';
-
+import powerbank from './Photos/powerbank.png'
+import iqos from './Photos/iqos.png'
+import vape from './Photos/vape.png'
+import nag from './Photos/nag.png'
+import glo from './Photos/glo.png'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Card title="Ситсеми нагрівання тютюну"/>
-   <Card title="Iqos"/>
-   <Card title="GLO"/>
-   <Card title="JOUZ"/>
-   <Card title="Павербанки та зар. станції"/>
+   <Card img ={nag} title="Ситсеми нагрівання тютюну"/>
+   <Card img ={iqos} title="Iqos"/>
+   <Card img ={glo} title="GLO"/>
+   <Card img ={vape} title="JOUZ"/>
+   <Card img ={powerbank}  title="Павербанки та зар. станції"/>
   </React.StrictMode>
 );
 
