@@ -14,7 +14,7 @@ root.render(
    <Router>
     <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route path='/heater' element={<Heater />} />
+        {/* <Route path='/heater' element={<Heater />} /> */}
     </Routes>
     </Router>
     {/* "CatalogCard name="{getData()[i].name}"  " */}
