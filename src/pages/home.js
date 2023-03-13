@@ -12,11 +12,11 @@ const Home = () => {
     <React.StrictMode>
     <div class="ctg" >Категорії товарів</div>
     <div class="grid">
-    <a href="https://inspiring-smakager-b8e862.netlify.app"><MainMenuCard img ={nag} title="Системи нагрівання тютюну" /></a>
-    <a href="https://inspiring-smakager-b8e862.netlify.app"><MainMenuCard img ={iqos} title="Iqos"/></a>
-    <a href="https://inspiring-smakager-b8e862.netlify.app"><MainMenuCard img ={glo} title="GLO"/></a>
-    <a href="https://inspiring-smakager-b8e862.netlify.app"><MainMenuCard img ={vape} title="JOUZ"/></a>
-    <a href="https://inspiring-smakager-b8e862.netlify.app"><MainMenuCard img ={powerbank}  title="Павербанки та зар. станції"/></a>
+    <a href="/heater"><MainMenuCard img ={nag} title="Системи нагрівання тютюну" /></a>
+    <a href="/heater"><MainMenuCard img ={iqos} title="Iqos"/></a>
+    <a href="/heater"><MainMenuCard img ={glo} title="GLO"/></a>
+    <a href="/heater"><MainMenuCard img ={vape} title="JOUZ"/></a>
+    <a href="/heater"><MainMenuCard img ={powerbank}  title="Павербанки та зар. станції"/></a>
     </div>
     <div class = "tovar"> Підібрати товар</div>
     </React.StrictMode>
