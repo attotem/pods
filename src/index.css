@@ -46,3 +46,5 @@ font-weight: bold;
   display: grid;
   align-content: space-around;
 }
+a:link { text-decoration: none; 
+  color: white;}
